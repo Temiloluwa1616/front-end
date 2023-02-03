@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0; 
+  }
+  body{
+      padding: 0px 90px
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+  }
+  ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+    color: blue;
+  }
+ #hero{
+    display: flex;
+    gap: 10px;
+ }
+  #REDFONT{
+    color: brown;
+  }
+  .circle{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: pink;
+  }
